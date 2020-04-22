@@ -1,0 +1,32 @@
+.Alarm{
+    color:red;
+    animation-name: Alarm_Anim;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    font-weight:bold;
+}
+
+.Warning{
+  color: #ba4a00 ;
+  animation-name: Warning_Anim;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  font-weight:bold;
+}
+
+.Normal{
+  color:green;
+  font-weight:bold;
+}
+
+@keyframes Alarm_Anim{
+  0% {color:red; background-color:white;}
+  50% {color:white; background-color:red;}
+  100%{color:red;background-color:white;}
+}
+
+@keyframes Warning_Anim{
+  0% {color: #ba4a00;background-color:white;}
+  50% {color:white;background-color:#ba4a00;}
+  100% {color: #ba4a00 ;background-color:white;}
+}

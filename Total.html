@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="css\bootstrap.css">
+<link rel="stylesheet" href="Default.css">
+<link rel="stylesheet" href="Alarm.css">
+<link rel="stylesheet" href="Units.css">
+
+<html>
+<head>
+  <title>Station Total</title>
+</head>
+<body>
+  <div id="Titlehead">
+    <h1></h1>
+    <h2>Station Total</h2>
+  </div>
+
+  <div class="Buttons">
+    <div class="grid">
+      <div class="grid-item"><a href="index.html" id="Button1"></a></div>
+      <div class="grid-item" ><a href="Run1.html" id="Button2"></a></div>
+      <div class="grid-item" ><a href="Run2.html" id="Button3"></a></div>
+      <div class="grid-item" ><a href="Total.html" id="Button4"></a></div>
+      <div class="grid-item" ><a href="Asset.html" id="Button5"></a></div>
+    </div>
+  </div>
+
+  <table class="table" id="StationTotal">
+    <colgroup>
+      <col style="width:250px">
+      <col style="width:200px">
+      <col style="width:200px">
+      <col style="width:50px">
+    </colgroup>
+    <tr class="th1">
+      <th></th>
+      <th>Run 1</th>
+      <th>Run 2</th>
+      <th>Units</th>
+    </tr>
+
+    <tr class="th2">
+      <td>Station Total</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="GVol"></td>
+      <td >123.456</td>
+      <td >456.123</td>
+      <td class="GV_Units"></td>
+    </tr>
+    <tr>
+      <td class="SVol"></td>
+      <td >123.456</td>
+      <td >456.123</td>
+      <td class="SV_Units"></td>
+    </tr>
+
+    <tr>
+      <td class="Mass"></td>
+      <td>123.456</td>
+      <td>456.123</td>
+      <td class="Mass_Units"></td>
+    </tr>
+
+    <tr class="th2">
+      <td>Station Flowrate</td>
+      <td style="border-left:0px border-right:0px"></td>
+      <td style="border-left:0px border-right:0px"></td>
+      <td style="border-left:0px border-right:0px"></td>
+    </tr>
+
+    <tr>
+      <td class="GVFR"></td>
+      <td>123.456</td>
+      <td>456.123</td>
+      <td class="GVFR_Units"></td>
+    </tr>
+    <tr>
+      <tr>
+        <td class="SVFR"></td>
+        <td>123.456</td>
+        <td>456.123</td>
+        <td class="SVFR_Units"></td>
+      </tr>
+
+      <tr>
+        <td class="MASSFR"></td>
+        <td>123.456</td>
+        <td>456.123</td>
+        <td class="MASSFR_Units"></td>
+      </tr>
+    </table>
+    <div class="AlarmTable">
+      <ul>
+        <li class="Alarm">Run 1 Mass Flowrate is high!</li>
+        <li class="Alarm">Run 1 Temperature is out of range!</li>
+        <li class="Alarm">Run 1 Pressure is out of range!</li>
+        <li class="Warning">Run 2 Valve is opened! </li>
+        <li class="Warning">Run 2 Temperature is high! </li>
+        <li class="Normal">Run 2 Mass Flowrate is normal. </li>
+        <li class="Normal">Run 2 Pressure is normal. </li>
+      </ul>
+    </div>
+  </body>
+  </html>

@@ -1,0 +1,70 @@
+.GVol::before{
+  content:"Gross Volume Total";
+}
+
+.GV_Units::before{
+  content:"m3";
+}
+
+.SVol::before{
+  content:"Standard Volume Total";
+}
+
+.SV_Units::before{
+  content:"Sm3";
+}
+
+.Mass::before{
+  content:"Mass Total";
+}
+
+.Mass_Units::before{
+  content:"kg";
+}
+
+.GVFR::before{
+  content:"GV Flowrate"
+}
+
+.GVFR_Units::before{
+  content:"m3/hr"
+}
+
+.SVFR::before{
+  content:"SV Flowrate"
+}
+
+.SVFR_Units::before{
+  content:"Sm3/hr"
+}
+
+.MASSFR::before{
+  content:"Mass Flowrate"
+}
+
+.MASSFR_Units::before{
+  content:"kg/hr"
+}
+
+.Temperature::before{
+  content:"Line Temperature"
+}
+
+.TT_Units::before{
+  content:"degC"
+}
+
+.Pressure::before{
+  content:"Line Pressure"
+}
+.PT_Units::before{
+  content:"bar(g)"
+}
+
+.Unitless::before{
+  content:"-"
+}
+
+.Rangeless::before{
+  content:"-"
+}

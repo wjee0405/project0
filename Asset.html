@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<link rel="Stylesheet" href="css\bootstrap.css">
+<link rel="stylesheet" href="Default.css">
+<link rel="stylesheet" href="Alarm.css">
+<link rel="stylesheet" href="Units.css">
+
+<html>
+<head>
+  <title>Asset List</title>
+</head>
+
+<body>
+  <div id="Titlehead">
+    <h1></h1>
+    <h2>Alarm List</h2>
+  </div>
+  <div class="Buttons">
+		<div class="grid">
+				<div class="grid-item"><a href="index.html" id="Button1"></a></div>
+        <div class="grid-item" ><a href="Run1.html" id="Button2"></a></div>
+        <div class="grid-item" ><a href="Run2.html" id="Button3"></a></div>
+        <div class="grid-item" ><a href="Total.html" id="Button4"></a></div>
+        <div class="grid-item" ><a href="Asset.html" id="Button5"></a></div>
+		</div>
+	</div>
+
+  <table class="table" id="AssetTable">
+    <tr class="th1">
+      <th>No.</th>
+      <th>Item Tag</th>
+      <th>Description </th>
+      <th>Upper Range</th>
+      <th>Lower Range</th>
+      <th>Units</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>6900TT-1201</td>
+      <td>Temperature Transmitter</td>
+      <td>100</td>
+      <td>0</td>
+      <td class="TT_Units"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>6900PT-1201</td>
+      <td>Pressure Transmitter</td>
+      <td>1000</td>
+      <td>0</td>
+      <td class="PT_Units"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>6900GBS-1252 </td>
+      <td>Hand Valve</td>
+      <td class="Rangeless"></td>
+      <td class="Rangeless"></td>
+      <td class="Unitless"></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>6900GBS-1253</td>
+      <td>Hand Valve</td>
+      <td class="Rangeless"></td>
+      <td class="Rangeless"></td>
+      <td class="Unitless"></td>
+    </tr>
+  </table>
+
+  <div class="AlarmTable">
+    <ul>
+      <li class="Alarm">Run 1 Mass Flowrate is high!</li>
+      <li class="Alarm">Run 1 Temperature is out of range!</li>
+      <li class="Alarm">Run 1 Pressure is out of range!</li>
+      <li class="Warning">Run 2 Valve is opened! </li>
+      <li class="Warning">Run 2 Temperature is high! </li>
+      <li class="Normal">Run 2 Mass Flowrate is normal. </li>
+      <li class="Normal">Run 2 Pressure is normal. </li>
+    </ul>
+  </div>
+</body>
+</html>

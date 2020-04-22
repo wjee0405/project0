@@ -1,0 +1,140 @@
+h1::before{
+  content:"Metering Skid 1"
+}
+h1{
+  font-family:"Arial";
+  font-size:3vmax;
+  font-weight:bold;
+  text-align:center;
+  color:white;
+  background-color:#2b887a;
+}
+div{
+  font-size:1vmax;
+}
+
+@media screen and (max-width:1000px){
+  #ImgDisplay{
+    display:none;
+  }
+}
+
+@media print{
+  .AlarmTable{
+    display:none;
+  }
+}
+
+h2{
+  font-family:"Arial";
+  font-weight:bold;
+  text-align:center;
+  color:black;
+}
+
+table{
+  margin-left:auto;
+  margin-right:auto;
+}
+table.*{
+  height:0.5vmax;
+}
+
+img{
+  margin-top:20px;
+  margin-bottom:10px;
+  width : 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td{
+  padding-left:5px;
+  padding-right:5px;
+}
+td:nth-child(n+2){
+  text-align:center;
+}
+td:last-child{
+  text-align:right;
+}
+
+.AlarmTable{
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2vmax;
+  max-width:50%;
+  border:20px;
+}
+
+.th1{
+  text-align:center;
+  font-weight:bold;
+  color:white;
+  background-color: #51c8b6;
+}
+.th2{
+  text-align:left;
+  font-weight:bold;
+  color:white;
+  background-color: #77d4c6;
+}
+
+.grid{
+  background-color:#3dc2ae;
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  height:10%;
+}
+
+.grid-item{
+  font-family:"Arial";
+  font-weight:bold;
+  text-align:center;
+  padding-top:5px;
+  border-left:1px solid white;
+  border-right:1px solid white;
+}
+.grid-item>a{
+  color:white;
+}
+
+.grid-item:hover{
+  font-weight:bold;
+  color:blue;
+  background-color: #2b887a ;
+}
+
+#Button1::before{
+  content:"Station Overview";
+}
+
+#Button2::before{
+  content: "Run 1 Overview";
+}
+#Button3::before{
+  content: "Run 2 Overview";
+}
+#Button4::before{
+  content:"Station Total";
+}
+#Button5::before{
+  content:"Asset List";
+}
+
+#OverviewTable{
+  max-width:40%;
+  margin-top:20px;
+}
+
+#StationTotal{
+  max-width:50%;
+  margin-top:20px;
+}
+
+#AssetTable{
+  max-width:50%;
+  margin-top:20px;
+}
